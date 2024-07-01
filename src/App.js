@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import SortingVisualizer from './SortingVisualizer/SortingVisualizer.jsx'
 function App() {

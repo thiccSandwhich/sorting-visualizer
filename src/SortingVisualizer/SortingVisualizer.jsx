@@ -23,7 +23,7 @@ componentDidMount(){
 resetArray(){
     const array = [];
     // todo: find the size of the window to then calculate the number of bars to place here
-    for(let i = 0; i < 10; i++){
+    for(let i = 0; i < 200; i++){
         //calculate height of window so second value is never higher than that. So the bar doesn't go off screen
         array.push(randomIntFromInterval(5,730));
         }
